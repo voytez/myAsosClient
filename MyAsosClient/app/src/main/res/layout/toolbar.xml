@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:clickable="true"
+        android:src="@drawable/logo"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/text_bag_size"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:background="@drawable/basket"></TextView>
+
+
+    <ImageView
+        android:id="@+id/wishlist_icon"
+        android:layout_width="@dimen/wishlist_toolbar_icon_width"
+        android:layout_height="@dimen/wishlist_toolbar_icon_height"
+        android:clickable="true"
+        android:src="@drawable/wishlist"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/margin_large" />
+
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,13 @@
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/label"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/title_text_size"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/margin_large"
+    android:paddingRight="@dimen/margin_large"
+    android:paddingTop="@dimen/navigation_item_padding"
+    android:paddingBottom="@dimen/navigation_item_padding"
+    android:textColor="@color/text_black"
+/>
